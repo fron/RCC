@@ -1,0 +1,53 @@
+*{
+   /* border: 2px solid red */   
+}
+
+*{
+  @font-face 
+    {
+        font-family: newYorker; 
+        src: url('fonts/Cygnet.ttf');
+    }
+ }
+
+#main{
+    position:relative;
+}
+
+div#first{
+    background-image: url('images/backGround.jpg');
+    opacity:0.9;
+    width:1867px;
+    height:897px;
+}
+
+.second{
+    background-color: black;
+    position:absolute;
+    top: 25%;
+    left: 40%;
+}
+
+[class*="line"] {
+  color: ghostwhite;
+  text-decoration: none;
+ 
+}
+
+p {
+  color: ghostwhite;
+  text-decoration: none;
+  font: 15px newYorker, Sans-Serif; 
+  line-height: 15px;
+}
+
+body div a {
+    color:lightslategray;
+    font:15px newYorker, Sans-Serif; 
+    line-height: 25px;
+}
+
+
+span {
+    color:red;
+}
