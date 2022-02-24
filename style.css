@@ -28,11 +28,7 @@ div#first{
     left: 40%;
 }
 
-[class*="line"] {
-  color: ghostwhite;
-  text-decoration: none;
- 
-}
+
 
 p {
   color: ghostwhite;
@@ -43,8 +39,8 @@ p {
 
 body div a {
     color:lightslategray;
-    font:15px newYorker, Sans-Serif; 
-    line-height: 25px;
+    font:25px newYorker, Sans-Serif; 
+    line-height: 30px;
 }
 
 
